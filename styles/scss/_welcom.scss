@@ -1,0 +1,64 @@
+.welcome {
+	position: relative;
+	width: 1400px;
+	height: 765px;
+	background-image: url(/resources/welcome/welcome.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50%;
+}
+
+.welcome {
+	&__logo-surname-wrapper {
+		position: absolute;
+		top: 36px;
+		left: 123px;
+		width: 149px;
+		height: 39px;
+
+		border-radius: 100px;
+		background-color: black;
+	}
+
+	&__logo-surname {
+		position: absolute;
+		left: 9px;
+		top: -2px;
+		font-weight: 700;
+		font-size: 42.414px;
+		letter-spacing: -4.666px;
+		text-transform: uppercase;
+
+		color: #f8d197;
+	}
+
+	&__link {
+		margin-right: 50px;
+		font-size: 18px;
+		letter-spacing: -0.54px;
+		text-decoration: none;
+
+		color: #fff;
+	}
+
+	&__link:hover {
+		color: #f8d197;
+	}
+
+	&__text {
+		position: absolute;
+		left: 93px;
+		bottom: 466px;
+		width: 546px;
+		font-size: 25px;
+		letter-spacing: -0.75px;
+
+		color: #fff;
+	}
+}
+
+.menu {
+	position: absolute;
+	left: 773px;
+	top: 33px;
+}

@@ -1,0 +1,129 @@
+.welcome {
+  position: relative;
+  width: 1400px;
+  height: 765px;
+  background-image: url(/resources/welcome/welcome.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.welcome__logo-surname-wrapper {
+  position: absolute;
+  top: 36px;
+  left: 123px;
+  width: 149px;
+  height: 39px;
+  border-radius: 100px;
+  background-color: black;
+}
+.welcome__logo-surname {
+  position: absolute;
+  left: 9px;
+  top: -2px;
+  font-weight: 700;
+  font-size: 42.414px;
+  letter-spacing: -4.666px;
+  text-transform: uppercase;
+  color: #f8d197;
+}
+.welcome__link {
+  margin-right: 50px;
+  font-size: 18px;
+  letter-spacing: -0.54px;
+  text-decoration: none;
+  color: #fff;
+}
+.welcome__link:hover {
+  color: #f8d197;
+}
+.welcome__text {
+  position: absolute;
+  left: 93px;
+  bottom: 466px;
+  width: 546px;
+  font-size: 25px;
+  letter-spacing: -0.75px;
+  color: #fff;
+}
+
+.menu {
+  position: absolute;
+  left: 773px;
+  top: 33px;
+}
+
+.fresh-projects {
+  width: 1400px;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.fresh-projects__title {
+  padding: 150px 0px 40px 125px;
+  font-size: 55px;
+  letter-spacing: -1.65px;
+  color: #fff;
+}
+.fresh-projects__container {
+  padding: 0px 125px;
+}
+.fresh-projects__btn {
+  margin-top: 50px;
+  padding: 56px 85px 58px 86px;
+  display: inline-block;
+  font-size: 30px;
+  letter-spacing: -0.9px;
+  border-radius: 10px;
+  color: #000;
+  background-color: #f8d197;
+  text-decoration: none;
+}
+.fresh-projects__btn:hover {
+  color: #f8d197;
+  background-color: #000;
+  border: 1px solid #f8d197;
+}
+
+.item {
+  position: relative;
+}
+
+.item__name {
+  left: 50px;
+  bottom: 94px;
+  position: absolute;
+  font-size: 35px;
+  letter-spacing: -1.05px;
+  color: #fff;
+}
+.item__text {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  font-size: 30px;
+  letter-spacing: -0.9px;
+  color: #fff;
+}
+
+body {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  background-color: green;
+}
+
+h1 {
+  left: 93px;
+  bottom: 208px;
+  position: absolute;
+  width: 699px;
+  font-size: 59px;
+  line-height: 70px;
+  letter-spacing: -1.77px;
+  color: #f8d197;
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
