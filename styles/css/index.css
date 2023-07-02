@@ -2,7 +2,7 @@
   position: relative;
   width: 1400px;
   height: 765px;
-  background-image: url(/resources/welcome/welcome.png);
+  background-image: url(../resources/welcome/welcome.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
