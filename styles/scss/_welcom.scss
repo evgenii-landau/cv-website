@@ -2,14 +2,15 @@
 	position: relative;
 	width: 1400px;
 	height: 765px;
-	background-image: url(/resources/welcome/welcome.png);
+	margin: 0 auto;
+	background-image: url(/resources/welcome/welcome.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50%;
 }
 
 .welcome {
-	&__logo-surname-wrapper {
+	&__logo-background {
 		position: absolute;
 		top: 36px;
 		left: 123px;
@@ -22,8 +23,8 @@
 
 	&__logo-surname {
 		position: absolute;
-		left: 9px;
-		top: -2px;
+		left: 132px;
+		top: 35px;
 		font-weight: 700;
 		font-size: 42.414px;
 		letter-spacing: -4.666px;
