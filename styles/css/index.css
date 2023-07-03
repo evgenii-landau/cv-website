@@ -3,7 +3,7 @@
   width: 1400px;
   height: 765px;
   margin: 0 auto;
-  background-image: url("../resources/welcome/welcome.png");
+  background-image: url(../../resources/welcome/welcome.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
@@ -143,7 +143,7 @@
   width: 45px;
   height: 44px;
   content: "";
-  background-image: url(/resources/competence/1.svg);
+  background-image: url(../../resources/competence/1.svg);
   background-repeat: no-repeat;
 }
 
@@ -154,7 +154,7 @@
   width: 45px;
   height: 44px;
   content: "";
-  background-image: url(/resources/competence/2.png);
+  background-image: url(../../resources/competence/2.png);
   background-repeat: no-repeat;
 }
 
@@ -165,7 +165,7 @@
   width: 45px;
   height: 44px;
   content: "";
-  background-image: url(/resources/competence/3.png);
+  background-image: url(../../resources/competence/3.png);
   background-repeat: no-repeat;
 }
 
@@ -176,7 +176,7 @@
   width: 45px;
   height: 44px;
   content: "";
-  background-image: url(/resources/competence/4.png);
+  background-image: url(../../resources/competence/4.png);
   background-repeat: no-repeat;
 }
 
@@ -215,19 +215,19 @@
 .skills-item__img {
   width: 1150px;
   height: 200px;
-  background-image: url(/resources/skills/1.png);
+  background-image: url(../../resources/skills/1.png);
   background-repeat: no-repeat;
 }
 .skills-item__img_2 {
   width: 1150px;
   height: 200px;
-  background-image: url(/resources/skills/2.png);
+  background-image: url(../../resources/skills/2.png);
   background-repeat: no-repeat;
 }
 .skills-item__img_3 {
   width: 1150px;
   height: 200px;
-  background-image: url(/resources/skills/3.png);
+  background-image: url(../../resources/skills/3.png);
   background-repeat: no-repeat;
 }
 .skills-item__background {
@@ -267,7 +267,7 @@
   position: relative;
   width: 1400px;
   height: 717px;
-  background-image: url(/resources/contacts/1.png);
+  background-image: url(../../resources/contacts/1.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -330,7 +330,7 @@
   position: relative;
   width: 1400px;
   height: 223px;
-  background-image: url(/resources/footer/1.png);
+  background-image: url(../../resources/footer/1.png);
 }
 .footer__text {
   position: absolute;
