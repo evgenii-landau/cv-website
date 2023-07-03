@@ -28,6 +28,10 @@
 	position: relative;
 }
 
+.competence-item:last-child {
+	margin-bottom: 0px;
+}
+
 .competence-item__html-css::before {
 	position: absolute;
 	top: -65px;
