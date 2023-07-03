@@ -3,7 +3,7 @@
   width: 1400px;
   height: 765px;
   margin: 0 auto;
-  background-image: url(/resources/welcome/welcome.jpg);
+  background-image: url("../resources/welcome/welcome.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
