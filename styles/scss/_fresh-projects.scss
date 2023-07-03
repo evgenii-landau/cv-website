@@ -37,11 +37,15 @@
 	}
 }
 
-.item {
+.fresh-projects-item {
 	position: relative;
 }
 
-.item {
+.fresh-projects-item {
+	&__img {
+		border-radius: 35px;
+	}
+
 	&__name {
 		left: 50px;
 		bottom: 94px;
