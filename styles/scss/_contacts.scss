@@ -1,0 +1,75 @@
+.contacts {
+	&__container {
+		width: 1400px;
+		margin: 0 auto;
+		padding-top: 150px;
+		padding-bottom: 150px;
+		background-color: black;
+	}
+
+	&__img {
+		position: relative;
+		width: 1400px;
+		height: 717px;
+		background-image: url(/resources/contacts/1.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	&__text {
+		position: absolute;
+		left: 125px;
+		bottom: 337px;
+		font-size: 35px;
+		line-height: 60px;
+		letter-spacing: -1.05px;
+
+		color: #fff;
+	}
+
+	&__inst {
+		position: absolute;
+		left: 125px;
+		bottom: 249px;
+		font-size: 60px;
+		line-height: 60px;
+		letter-spacing: -1.8px;
+
+		color: #fff;
+		text-decoration: none;
+	}
+
+	&__telegram {
+		position: absolute;
+		left: 125px;
+		bottom: 169px;
+		font-size: 60px;
+		line-height: 60px;
+		letter-spacing: -1.8px;
+
+		color: #fff;
+		text-decoration: none;
+	}
+
+	&__mail {
+		position: absolute;
+		left: 125px;
+		bottom: 89px;
+		font-size: 60px;
+		line-height: 60px;
+		letter-spacing: -1.8px;
+
+		color: #fff;
+		text-decoration: none;
+	}
+
+	&__inst:hover {
+		color: #f8d197;
+	}
+	&__telegram:hover {
+		color: #f8d197;
+	}
+	&__mail:hover {
+		color: #f8d197;
+	}
+}

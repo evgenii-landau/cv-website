@@ -1,0 +1,38 @@
+.footer {
+	width: 1400px;
+	margin: 0 auto;
+	background-color: black;
+}
+
+.footer {
+	&__img {
+		position: relative;
+		width: 1400px;
+		height: 223px;
+		background-image: url(/resources/footer/1.png);
+	}
+
+	&__text {
+		position: absolute;
+		left: 125px;
+		bottom: 117px;
+		font-size: 22px;
+		letter-spacing: -0.66px;
+
+		color: #000;
+	}
+
+	&__text-2 {
+		position: absolute;
+		left: 125px;
+		bottom: 24px;
+		font-size: 20px;
+		letter-spacing: -0.6px;
+
+		color: #000;
+	}
+
+	&__text-2:hover {
+		opacity: 0.5;
+	}
+}
