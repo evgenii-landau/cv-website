@@ -1,10 +1,4 @@
 .skills {
-	width: 1400px;
-	margin: 0 auto;
-	background-color: #000;
-}
-
-.skills {
 	&__title {
 		padding-top: 150px;
 		margin-left: 125px;
@@ -21,27 +15,6 @@
 	}
 }
 .skills-item {
-	&__img {
-		width: 1150px;
-		height: 200px;
-		background-image: url(../../resources/skills/1.png);
-		background-repeat: no-repeat;
-
-		&_2 {
-			width: 1150px;
-			height: 200px;
-			background-image: url(../../resources/skills/2.png);
-			background-repeat: no-repeat;
-		}
-
-		&_3 {
-			width: 1150px;
-			height: 200px;
-			background-image: url(../../resources/skills/3.png);
-			background-repeat: no-repeat;
-		}
-	}
-
 	&__background {
 		padding: 40px 62px 40px 40px;
 		border-radius: 30px;

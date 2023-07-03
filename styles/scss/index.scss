@@ -7,6 +7,13 @@
 
 body {
 	font-family: 'IBM Plex Mono', monospace;
+
+	.container__background {
+		width: 1400px;
+		margin: 0 auto;
+		padding-bottom: 150px;
+		background-color: black;
+	}
 }
 
 h1 {

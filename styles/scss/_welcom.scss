@@ -1,4 +1,4 @@
-.welcome {
+.fullscreen-header {
 	position: relative;
 	width: 1400px;
 	height: 765px;
@@ -9,18 +9,7 @@
 	background-position: 50%;
 }
 
-.welcome {
-	&__logo-background {
-		position: absolute;
-		top: 36px;
-		left: 123px;
-		width: 149px;
-		height: 39px;
-
-		border-radius: 100px;
-		background-color: black;
-	}
-
+.fullscreen-header {
 	&__logo-surname {
 		position: absolute;
 		left: 132px;
@@ -29,21 +18,11 @@
 		font-size: 42.414px;
 		letter-spacing: -4.666px;
 		text-transform: uppercase;
+		border-radius: 100px;
+		padding: 0px 15px 1px 9px;
 
 		color: #f8d197;
-	}
-
-	&__link {
-		margin-right: 50px;
-		font-size: 18px;
-		letter-spacing: -0.54px;
-		text-decoration: none;
-
-		color: #fff;
-	}
-
-	&__link:hover {
-		color: #f8d197;
+		background-color: black;
 	}
 
 	&__text {
@@ -62,4 +41,20 @@
 	position: absolute;
 	left: 773px;
 	top: 33px;
+
+	&__link {
+		margin-right: 50px;
+		font-size: 18px;
+		letter-spacing: -0.54px;
+		text-decoration: none;
+		border-radius: 10px;
+		padding: 0px 5px 3px 4px;
+
+		color: #fff;
+		background-color: #b1a592;
+	}
+
+	&__link:hover {
+		color: #f8d197;
+	}
 }

@@ -1,4 +1,4 @@
-.welcome {
+.fullscreen-header {
   position: relative;
   width: 1400px;
   height: 765px;
@@ -9,16 +9,7 @@
   background-position: 50%;
 }
 
-.welcome__logo-background {
-  position: absolute;
-  top: 36px;
-  left: 123px;
-  width: 149px;
-  height: 39px;
-  border-radius: 100px;
-  background-color: black;
-}
-.welcome__logo-surname {
+.fullscreen-header__logo-surname {
   position: absolute;
   left: 132px;
   top: 34px;
@@ -26,19 +17,12 @@
   font-size: 42.414px;
   letter-spacing: -4.666px;
   text-transform: uppercase;
+  border-radius: 100px;
+  padding: 0px 15px 1px 9px;
   color: #f8d197;
+  background-color: black;
 }
-.welcome__link {
-  margin-right: 50px;
-  font-size: 18px;
-  letter-spacing: -0.54px;
-  text-decoration: none;
-  color: #fff;
-}
-.welcome__link:hover {
-  color: #f8d197;
-}
-.welcome__text {
+.fullscreen-header__text {
   position: absolute;
   left: 93px;
   bottom: 466px;
@@ -53,11 +37,18 @@
   left: 773px;
   top: 33px;
 }
-
-.fresh-projects {
-  width: 1400px;
-  margin: 0 auto;
-  background-color: #000;
+.menu__link {
+  margin-right: 50px;
+  font-size: 18px;
+  letter-spacing: -0.54px;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 0px 5px 3px 4px;
+  color: #fff;
+  background-color: #b1a592;
+}
+.menu__link:hover {
+  color: #f8d197;
 }
 
 .fresh-projects__title {
@@ -108,12 +99,6 @@
   font-size: 30px;
   letter-spacing: -0.9px;
   color: #fff;
-}
-
-.competence {
-  width: 1400px;
-  margin: 0 auto;
-  background-color: black;
 }
 
 .competence__title {
@@ -192,12 +177,6 @@
   color: #fff;
 }
 
-.skills {
-  width: 1400px;
-  margin: 0 auto;
-  background-color: #000;
-}
-
 .skills__title {
   padding-top: 150px;
   margin-left: 125px;
@@ -211,24 +190,6 @@
   padding: 0 125px;
 }
 
-.skills-item__img {
-  width: 1150px;
-  height: 200px;
-  background-image: url(../../resources/skills/1.png);
-  background-repeat: no-repeat;
-}
-.skills-item__img_2 {
-  width: 1150px;
-  height: 200px;
-  background-image: url(../../resources/skills/2.png);
-  background-repeat: no-repeat;
-}
-.skills-item__img_3 {
-  width: 1150px;
-  height: 200px;
-  background-image: url(../../resources/skills/3.png);
-  background-repeat: no-repeat;
-}
 .skills-item__background {
   padding: 40px 62px 40px 40px;
   border-radius: 30px;
@@ -258,7 +219,6 @@
 .contacts__container {
   width: 1400px;
   margin: 0 auto;
-  padding-top: 150px;
   padding-bottom: 150px;
   background-color: black;
 }
@@ -324,7 +284,6 @@
   margin: 0 auto;
   background-color: black;
 }
-
 .footer__img {
   position: relative;
   width: 1400px;
@@ -353,6 +312,12 @@
 
 body {
   font-family: "IBM Plex Mono", monospace;
+}
+body .container__background {
+  width: 1400px;
+  margin: 0 auto;
+  padding-bottom: 150px;
+  background-color: black;
 }
 
 h1 {
