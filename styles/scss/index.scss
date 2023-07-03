@@ -1,9 +1,13 @@
-@import 'welcom';
+@import 'fullscreen';
 @import 'fresh-projects';
 @import 'competence';
 @import 'skills.scss';
 @import 'contacts.scss';
 @import 'footer.scss';
+
+html {
+	scroll-behavior: smooth;
+}
 
 body {
 	font-family: 'IBM Plex Mono', monospace;
@@ -12,6 +16,7 @@ body {
 		width: 1400px;
 		margin: 0 auto;
 		padding-bottom: 150px;
+
 		background-color: black;
 	}
 }
@@ -24,6 +29,6 @@ h1 {
 	font-size: 59px;
 	line-height: 70px;
 	letter-spacing: -1.77px;
+
 	color: #f8d197;
-	text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }

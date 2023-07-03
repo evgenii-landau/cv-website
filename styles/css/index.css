@@ -45,7 +45,7 @@
   border-radius: 10px;
   padding: 0px 5px 3px 4px;
   color: #fff;
-  background-color: #b1a592;
+  background-color: black;
 }
 .menu__link:hover {
   color: #f8d197;
@@ -310,6 +310,10 @@
   opacity: 0.5;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "IBM Plex Mono", monospace;
 }
@@ -329,5 +333,4 @@ h1 {
   line-height: 70px;
   letter-spacing: -1.77px;
   color: #f8d197;
-  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
