@@ -1,20 +1,12 @@
 .skills {
 	&__title {
-		padding-top: 150px;
-		margin-left: 125px;
 		padding-bottom: 74px;
-		width: 403px;
-		font-size: 35px;
-		letter-spacing: -1.05px;
-
-		color: #fff;
 	}
 
-	&__container {
-		padding: 0 125px;
+	&__item {
+		margin-bottom: 74px;
 	}
-}
-.skills-item {
+
 	&__background {
 		padding: 40px 62px 40px 40px;
 		border-radius: 30px;
@@ -22,7 +14,7 @@
 		background-color: #191c19;
 	}
 
-	&__title {
+	&__subtitle {
 		padding-bottom: 15px;
 		font-size: 55px;
 		letter-spacing: -1.65px;
@@ -30,19 +22,7 @@
 		color: #f8d197;
 	}
 
-	&__text {
-		width: 724px;
-		font-size: 22px;
-		letter-spacing: -0.66px;
-
-		color: #fff;
+	&__item:last-child {
+		margin-bottom: 0px;
 	}
-}
-
-.skills-item {
-	margin-bottom: 74px;
-}
-
-.skills-item:last-child {
-	margin-bottom: 0px;
 }

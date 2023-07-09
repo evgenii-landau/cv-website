@@ -42,62 +42,72 @@
 		<title>CV</title>
 	</head>
 	<body>
-		<header class="fullscreen-header">
-			<p class="fullscreen-header__logo-surname">landau</p>
-			<nav class="menu">
-				<a class="menu__link" href="#portfolio">портфолио</a>
-				<a class="menu__link" href="#competencies">компетенции</a>
-				<a class="menu__link" href="#services">услуги</a>
-				<a class="menu__link" href="#contacts">контакты</a>
-			</nav>
-			<p class="fullscreen-header__text">
-				Разрабатываю имиджевые сайты для малого и среднего бизнеса,
-				которые повышают престиж компании и позволяют выделиться на фоне
-				конкурентов
-			</p>
-			<h1>Привет, я Евгений — фронтенд разработчик и дизайнер сайтов</h1>
+		<header class="header">
+			<div class="container">
+				<p class="header__logo">landau</p>
+				<nav class="header__menu">
+					<a class="header__link active" href="#portfolio"
+						>портфолио</a
+					>
+					<a class="header__link active" href="#competencies"
+						>компетенции</a
+					>
+					<a class="header__link active" href="#services">услуги</a>
+					<a class="header__link active" href="#contacts">контакты</a>
+				</nav>
+				<p class="header__text">
+					Разрабатываю имиджевые сайты для малого и среднего бизнеса,
+					которые повышают престиж компании и позволяют выделиться на
+					фоне конкурентов
+				</p>
+				<h1>
+					Привет, я Евгений — фронтенд разработчик и дизайнер сайтов
+				</h1>
+			</div>
 		</header>
 
 		<main>
 			<div class="container__background">
 				<section class="fresh-projects">
-					<h2 class="fresh-projects__title" id="portfolio">
-						Самые свежие проекты
-					</h2>
-					<div class="fresh-projects__container">
+					<div class="container">
+						<h2 class="fresh-projects__title" id="portfolio">
+							Самые свежие проекты
+						</h2>
 						<ul class="fresh-projects__list">
-							<li class="fresh-projects-item">
+							<li class="fresh-projects__item">
 								<img
-									class="fresh-projects-item__img"
-									src="resources/fresh-projects/1.jpg"
+									class="fresh-projects__img"
+									src="resources/fresh-projects/1.png"
 									alt="website"
 								/>
-								<p class="fresh-projects-item__name">
+								<h3 class="fresh-projects__subtitle">
 									Realhome
-								</p>
-								<p class="fresh-projects-item__text">
+								</h3>
+								<p class="fresh-projects__text">
 									дизайн,верстка,настройка
 								</p>
 							</li>
-							<li class="fresh-projects-item">
+							<li class="fresh-projects__item">
 								<img
-									class="fresh-projects-item__img"
-									src="resources/fresh-projects/2.jpg"
+									class="fresh-projects__img"
+									src="resources/fresh-projects/2.png"
 									alt="website"
 								/>
-								<p class="fresh-projects-item__name">GLASS</p>
-								<p class="fresh-projects-item__text">
+								<h3 class="fresh-projects__subtitle">GLASS</h3>
+								<p class="fresh-projects__text">
 									разработка интерфейса
 								</p>
 							</li>
-							<li class="fresh-projects-item">
+							<li class="fresh-projects__item">
 								<img
-									class="fresh-projects-item__img"
-									src="resources/fresh-projects/3.jpg"
+									class="fresh-projects__img"
+									src="resources/fresh-projects/3.png"
 									alt="website"
 								/>
-								<p class="fresh-projects-item__name">Fesiyen</p>
-								<p class="fresh-projects-item__text">
+								<h3 class="fresh-projects__subtitle">
+									Fesiyen
+								</h3>
+								<p class="fresh-projects__text">
 									разработка интерфейса
 								</p>
 							</li>
@@ -112,181 +122,172 @@
 				</section>
 
 				<section class="competence">
-					<h2 class="competence__title" id="competencies">
-						Мои компетенции
-					</h2>
-					<div class="competence__container">
-						<ul class="competence__list">
-							<li class="competence-item">
-								<div class="competence-item__html-css">
-									<p class="competence-item__name">
-										HTML и CSS
-									</p>
-									<p class="competence-item__text">
-										это основа фронтенд разработки. Умение
-										создавать и правильно структурировать
-										HTML-документы, а также применять стили
-										к этим документам на CSS, является
-										обязательным навыком для каждого
-										фронтенд разработчика.
-									</p>
-								</div>
+					<div class="container">
+						<h2 class="competence__title" id="competencies">
+							Мои компетенции
+						</h2>
+						<ul>
+							<li class="competence__item html-css">
+								<h3 class="competence__subtitle">HTML и CSS</h3>
+								<p class="competence__text text">
+									это основа фронтенд разработки. Умение
+									создавать и правильно структурировать
+									HTML-документы, а также применять стили к
+									этим документам на CSS, является
+									обязательным навыком для каждого фронтенд
+									разработчика.
+								</p>
 							</li>
-							<li class="competence-item">
-								<div class="competence-item__java-script">
-									<p class="competence-item__name">
-										JavaScript
-									</p>
-									<p class="competence-item__text">
-										это язык программирования, который
-										используется для создания динамического
-										и интерактивного пользовательского
-										интерфейса. Хороший фронтенд разработчик
-										должен быть знаком с основами
-										JavaScript, включая работу с
-										DOM-деревом, асинхронными запросами и
-										манипуляцией данными на стороне клиента.
-									</p>
-								</div>
+							<li class="competence__item java-script">
+								<h3 class="competence__subtitle">JavaScript</h3>
+								<p class="competence__text text">
+									это язык программирования, который
+									используется для создания динамического и
+									интерактивного пользовательского интерфейса.
+									Хороший фронтенд разработчик должен быть
+									знаком с основами JavaScript, включая работу
+									с DOM-деревом, асинхронными запросами и
+									манипуляцией данными на стороне клиента.
+								</p>
 							</li>
-							<li class="competence-item">
-								<div class="competence-item__frameworks">
-									<p class="competence-item__name">
-										Работа с библиотеками и фреймворками
-									</p>
-									<p class="competence-item__text">
-										фронтенд разработчики должны быть
-										знакомы с различными библиотеками и
-										фреймворками, такими как React, Angular,
-										Vue и другими. Умение использовать
-										готовые решения, адаптировать их под
-										нужды проекта и расширять их
-										функциональность, является очень важным
-										навыком.
-									</p>
-								</div>
+							<li class="competence__item frameworks">
+								<h3 class="competence__subtitle">
+									Работа с библиотеками и фреймворками
+								</h3>
+								<p class="competence__text text">
+									фронтенд разработчики должны быть знакомы с
+									различными библиотеками и фреймворками,
+									такими как React, Angular, Vue и другими.
+									Умение использовать готовые решения,
+									адаптировать их под нужды проекта и
+									расширять их функциональность, является
+									очень важным навыком.
+								</p>
 							</li>
-							<li class="competence-item">
-								<div class="competence-item__mobile-device">
-									<p class="competence-item__name">
-										Разработка для мобильных устройств и
-										адаптивная верстка
-									</p>
-									<p class="competence-item__text">
-										фронтенд разработчики должны быть
-										знакомы с различными библиотеками и
-										фреймворками, такими как React, Angular,
-										Vue и другими. Умение использовать
-										готовые решения, адаптировать их под
-										нужды проекта и расширять их
-										функциональность, является очень важным
-										навыком.
-									</p>
-								</div>
+							<li class="competence__item mobile-device">
+								<h3 class="competence__subtitle">
+									Разработка для мобильных <br />
+									устройств и адаптивная верстка
+								</h3>
+								<p class="competence__text text">
+									фронтенд разработчики должны быть знакомы с
+									различными библиотеками и фреймворками,
+									такими как React, Angular, Vue и другими.
+									Умение использовать готовые решения,
+									адаптировать их под нужды проекта и
+									расширять их функциональность, является
+									очень важным навыком.
+								</p>
 							</li>
 						</ul>
 					</div>
 				</section>
 
 				<section class="skills">
-					<h2 class="skills__title" id="services">
-						Помогаю реализовать широкий спектр задач
-					</h2>
-					<div class="skills__container">
+					<div class="container">
+						<h2 class="skills__title" id="services">
+							Помогаю реализовать широкий спектр задач
+						</h2>
 						<ul>
-							<li class="skills-item">
+							<li class="skills__item">
 								<img
 									src="resources/skills/1.png"
 									alt="web-page"
 								/>
-								<div class="skills-item__background">
-									<p class="skills-item__title">
+								<div class="skills__background">
+									<h2 class="skills__subtitle">
 										Разработка сайта под ключ
-									</p>
-									<p class="skills-item__text">
+									</h2>
+									<p class="skills__text text">
 										Это создание дизайн веб-сайтов,
-										созданный для удобства пользователя и
-										решения бизнес-задач Сайты должны быть
-										понятными и удобными, ведь чем понятнее
+										созданный для удобства <br />
+										пользователя и решения бизнес-задач
+										<br />
+										Сайты должны быть понятными и удобными,
+										ведь чем понятнее <br />
 										сайт, тем быстрее пользователь совершит
 										целевое действие
 									</p>
 								</div>
 							</li>
-							<li class="skills-item">
+							<li class="skills__item">
 								<img
 									src="resources/skills/2.png"
 									alt="web-page"
 								/>
-								<div class="skills-item__background">
-									<p class="skills-item__title">
+								<div class="skills__background">
+									<h2 class="skills__subtitle">
 										Верстка сайтов
-									</p>
-									<p class="skills-item__text">
+									</h2>
+									<p class="skills__text text">
 										Это процесс создания HTML-документов и
-										применения к ним стилей на CSS. Фронтенд
-										разработчик может помочь создать
+										применения к ним <br />
+										стилей на CSS. Фронтенд разработчик
+										может помочь создать <br />
 										привлекательный и удобный интерфейс для
 										вашего сайта
 									</p>
 								</div>
 							</li>
-							<li class="skills-item">
+							<li class="skills__item">
 								<img
 									src="resources/skills/3.png"
 									alt="web-page"
 								/>
-								<div class="skills-item__background">
-									<p class="skills-item__title">
+								<div class="skills__background">
+									<h2 class="skills__subtitle">
 										Разработка мобильного интерфейса
-									</p>
-									<p class="skills-item__text">
+									</h2>
+									<p class="skills__text text">
 										Это процесс создания интерактивных
-										элементов на странице с помощью
+										элементов на странице <br />с помощью
 										JavaScript. Фронтенд разработчик может
-										помочь создать динамический и удобный
-										пользовательский интерфейс для вашего
-										сайта или приложения.
+										помочь <br />создать динамический и
+										удобный пользовательский интерфейс
+										<br />
+										для вашего сайта или приложения.
 									</p>
 								</div>
 							</li>
 						</ul>
 					</div>
 				</section>
-			</div>
 
-			<section class="contacts">
-				<div class="contacts__container">
+				<section class="contacts">
 					<div class="contacts__img">
-						<p class="contacts__text">для связи:</p>
-						<a
-							class="contacts__inst"
-							target="_blank"
-							href="//www.instagram.com/ravik.ras/"
-							>instagram</a
-						>
-						<a
-							class="contacts__telegram"
-							href="//t.me/jack_landau"
-							target="_blank"
-							>telegram</a
-						>
-						<a
-							class="contacts__mail"
-							href="mailto:koteniov.zgenya@mail.ru"
-							>mail</a
-						>
+						<div class="contacts__container">
+							<p class="contacts__text">для связи:</p>
+							<a
+								class="contacts__inst active"
+								target="_blank"
+								href="//www.instagram.com/ravik.ras/"
+								>instagram</a
+							>
+							<a
+								class="contacts__telegram active"
+								href="//t.me/jack_landau"
+								target="_blank"
+								>telegram</a
+							>
+							<a
+								class="contacts__mail active"
+								href="mailto:koteniov.zgenya@mail.ru"
+								>mail</a
+							>
+						</div>
 					</div>
-				</div>
-			</section>
+				</section>
+			</div>
 		</main>
 
 		<footer class="footer" id="contacts">
 			<div class="footer__img">
-				<p class="footer__text">
-					Портфолио фронтенд-разработчика Евгения Ландау
-				</p>
-				<p class="footer__text-2">Все права защищены. 2023</p>
+				<div class="container">
+					<p class="footer__text">
+						Портфолио фронтенд-разработчика Евгения Ландау
+					</p>
+					<p class="footer__text-2">Все права защищены. 2023</p>
+				</div>
 			</div>
 		</footer>
 	</body>

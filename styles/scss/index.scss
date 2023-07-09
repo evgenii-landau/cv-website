@@ -1,4 +1,4 @@
-@import 'fullscreen';
+@import 'header';
 @import 'fresh-projects';
 @import 'competence';
 @import 'skills.scss';
@@ -13,22 +13,47 @@ body {
 	font-family: 'IBM Plex Mono', monospace;
 
 	.container__background {
-		width: 1400px;
-		margin: 0 auto;
-		padding-bottom: 150px;
-
 		background-color: black;
 	}
 }
 
 h1 {
-	left: 93px;
-	bottom: 208px;
 	position: absolute;
+	top: 352px;
 	width: 699px;
 	font-size: 59px;
 	line-height: 70px;
 	letter-spacing: -1.77px;
 
+	color: #f8d197;
+}
+
+.container {
+	width: 1150px;
+	margin: 0 auto;
+	padding-top: 150px;
+}
+
+h2 {
+	font-size: 55px;
+	letter-spacing: -1.65px;
+	line-height: normal;
+
+	color: #fff;
+}
+
+h3 {
+	font-size: 35px;
+	letter-spacing: -1.05px;
+}
+
+.text {
+	font-size: 22px;
+	letter-spacing: -0.66px;
+	line-height: normal;
+	color: #fff;
+}
+
+.active:hover {
 	color: #f8d197;
 }

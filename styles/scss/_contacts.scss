@@ -1,24 +1,22 @@
 .contacts {
 	&__container {
-		width: 1400px;
-		margin: 0 auto;
-		padding-bottom: 150px;
-		background-color: black;
+		margin: 150px auto;
+		position: relative;
+		width: 1150px;
 	}
 
 	&__img {
-		position: relative;
-		width: 1400px;
+		width: 100%;
 		height: 717px;
 		background-image: url(../../resources/contacts/1.png);
 		background-repeat: no-repeat;
 		background-size: cover;
+		background-position: 50%;
 	}
 
 	&__text {
 		position: absolute;
-		left: 125px;
-		bottom: 337px;
+		top: 320px;
 		font-size: 35px;
 		line-height: 60px;
 		letter-spacing: -1.05px;
@@ -28,8 +26,7 @@
 
 	&__inst {
 		position: absolute;
-		left: 125px;
-		bottom: 249px;
+		top: 408px;
 		font-size: 60px;
 		line-height: 60px;
 		letter-spacing: -1.8px;
@@ -40,8 +37,7 @@
 
 	&__telegram {
 		position: absolute;
-		left: 125px;
-		bottom: 169px;
+		top: 488px;
 		font-size: 60px;
 		line-height: 60px;
 		letter-spacing: -1.8px;
@@ -52,8 +48,7 @@
 
 	&__mail {
 		position: absolute;
-		left: 125px;
-		bottom: 89px;
+		top: 568px;
 		font-size: 60px;
 		line-height: 60px;
 		letter-spacing: -1.8px;
