@@ -12,6 +12,7 @@
 }
 
 .header__logo {
+	padding: 0px 15px 1px 9px;
 	position: absolute;
 	top: 27px;
 	font-weight: 700;
@@ -19,7 +20,7 @@
 	letter-spacing: -4.666px;
 	text-transform: uppercase;
 	border-radius: 100px;
-	padding: 0px 15px 1px 9px;
+	text-decoration: none;
 	color: #f8d197;
 	background-color: black;
 }
