@@ -1,6 +1,6 @@
 .skills {
 	&__title {
-		padding-bottom: 74px;
+		margin-bottom: 40px;
 	}
 
 	&__item {
@@ -14,10 +14,12 @@
 		background-color: #191c19;
 	}
 
+	&__description {
+		width: 750px;
+	}
+
 	&__subtitle {
-		padding-bottom: 15px;
-		font-size: 55px;
-		letter-spacing: -1.65px;
+		margin-bottom: 15px;
 
 		color: #f8d197;
 	}

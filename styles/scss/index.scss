@@ -4,6 +4,7 @@
 @import 'skills.scss';
 @import 'contacts.scss';
 @import 'footer.scss';
+@import 'mixins.scss';
 
 html {
 	scroll-behavior: smooth;
@@ -12,9 +13,7 @@ html {
 body {
 	font-family: 'IBM Plex Mono', monospace;
 
-	.container__background {
-		background-color: black;
-	}
+	background-color: black;
 }
 
 h1 {
@@ -31,13 +30,13 @@ h1 {
 .container {
 	width: 1150px;
 	margin: 0 auto;
-	padding-top: 150px;
 }
 
 h2 {
 	font-size: 55px;
 	letter-spacing: -1.65px;
 	line-height: normal;
+	margin-bottom: 40px;
 
 	color: #fff;
 }
@@ -45,6 +44,7 @@ h2 {
 h3 {
 	font-size: 35px;
 	letter-spacing: -1.05px;
+	color: #fff;
 }
 
 .text {
@@ -52,8 +52,4 @@ h3 {
 	letter-spacing: -0.66px;
 	line-height: normal;
 	color: #fff;
-}
-
-.active:hover {
-	color: #f8d197;
 }

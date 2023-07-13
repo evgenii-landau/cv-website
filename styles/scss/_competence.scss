@@ -1,4 +1,6 @@
 .competence {
+	margin-bottom: 137px;
+
 	&__title {
 		margin-bottom: 104px;
 	}
@@ -24,48 +26,4 @@
 
 		color: #fff;
 	}
-}
-
-.html-css::before {
-	position: absolute;
-	top: -65px;
-	bottom: 167px;
-	width: 45px;
-	height: 44px;
-	content: '';
-	background-image: url(../../resources/competence/1.svg);
-	background-repeat: no-repeat;
-}
-
-.java-script::before {
-	position: absolute;
-	top: -65px;
-	bottom: 167px;
-	width: 45px;
-	height: 44px;
-	content: '';
-	background-image: url(../../resources/competence/2.png);
-	background-repeat: no-repeat;
-}
-
-.frameworks::before {
-	position: absolute;
-	top: -65px;
-	bottom: 167px;
-	width: 45px;
-	height: 44px;
-	content: '';
-	background-image: url(../../resources/competence/3.png);
-	background-repeat: no-repeat;
-}
-
-.mobile-device::before {
-	position: absolute;
-	top: -65px;
-	bottom: 167px;
-	width: 45px;
-	height: 44px;
-	content: '';
-	background-image: url(../../resources/competence/4.png);
-	background-repeat: no-repeat;
 }

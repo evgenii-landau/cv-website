@@ -1,10 +1,8 @@
 .fresh-projects {
+	margin-bottom: 150px;
+
 	&__title {
 		margin-bottom: 40px;
-		font-size: 55px;
-		letter-spacing: -1.65px;
-
-		color: #fff;
 	}
 
 	&__item {
@@ -22,7 +20,7 @@
 		color: #fff;
 	}
 
-	&__text {
+	&__description {
 		position: absolute;
 		left: 50px;
 		bottom: 50px;
