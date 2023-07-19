@@ -88,6 +88,7 @@
   display: inline-block;
   font-size: 30px;
   letter-spacing: -0.9px;
+  border: 1px solid #f8d197;
   border-radius: 10px;
   color: #000;
   background-color: #f8d197;
@@ -96,7 +97,6 @@
 .fresh-projects__btn:hover {
   color: #f8d197;
   background-color: #000;
-  border: 1px solid #f8d197;
 }
 
 .competence {
@@ -113,8 +113,30 @@
   margin-bottom: 0px;
 }
 .competence__subtitle {
+  position: relative;
   margin-bottom: 15px;
   color: #f8d197;
+}
+.competence__subtitle::before {
+  bottom: 55px;
+  width: 45px;
+  height: 44px;
+  content: "";
+  position: absolute;
+  background-image: url(../../resources/competence/1.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.competence__subtitle_java-script::before {
+  background-image: url(../../resources/competence/2.png);
+}
+.competence__subtitle_frameworks::before {
+  background-image: url(../../resources/competence/3.png);
+}
+.competence__subtitle_mobile-device::before {
+  bottom: 90px;
+  background-image: url(../../resources/competence/4.png);
 }
 .competence__text {
   width: 778px;

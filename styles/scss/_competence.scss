@@ -15,8 +15,34 @@
 	}
 
 	&__subtitle {
+		position: relative;
 		margin-bottom: 15px;
 		color: #f8d197;
+	}
+
+	&__subtitle::before {
+		bottom: 55px;
+		width: 45px;
+		height: 44px;
+		content: '';
+		position: absolute;
+		background-image: url(../../resources/competence/1.png);
+		background-position: 50%;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	&__subtitle_java-script::before {
+		background-image: url(../../resources/competence/2.png);
+	}
+
+	&__subtitle_frameworks::before {
+		background-image: url(../../resources/competence/3.png);
+	}
+
+	&__subtitle_mobile-device::before {
+		bottom: 90px;
+		background-image: url(../../resources/competence/4.png);
 	}
 
 	&__text {
