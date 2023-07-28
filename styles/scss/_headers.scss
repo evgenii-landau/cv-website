@@ -1,0 +1,19 @@
+h1 {
+	position: absolute;
+	top: 352px;
+	@include adaptiv-font(60, 35);
+
+	color: #f8d197;
+}
+
+h2 {
+	margin-bottom: 40px;
+	@include adaptiv-font(55, 30);
+
+	color: #fff;
+}
+
+h3 {
+	@include adaptiv-font(35, 28);
+	color: #fff;
+}

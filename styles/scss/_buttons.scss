@@ -1,0 +1,59 @@
+.fresh-projects__btn {
+	margin-top: 80px;
+	padding: 56px 85px 58px 86px;
+	display: inline-block;
+	@include adaptiv-font(30, 18);
+
+	border: 1px solid #f8d197;
+	border-radius: 10px;
+	color: #000;
+	background-color: #f8d197;
+	text-decoration: none;
+}
+
+.fresh-projects__btn:hover {
+	color: #f8d197;
+	background-color: #000;
+}
+
+.contacts__btn {
+	width: 441px;
+	margin: 55px 0 0 0;
+	@include adaptiv-font(22, 15);
+	padding: 19px 19px 22px 20px;
+	font-family: inherit;
+	border-radius: 10px;
+	background: #f8d197;
+	color: #000000;
+}
+
+@media (max-width: 1199px) {
+	.fresh-projects__btn {
+		margin-top: 65px;
+		padding: 45px 67px 47px 68px;
+		border-radius: 8.087px;
+	}
+
+	.fresh-projects__btn {
+		margin: 23px 0 0 0;
+	}
+
+	.contacts__btn {
+		margin: 23px 0 0 0;
+		padding: 12px 13px 14px 14px;
+		border-radius: 6.75px;
+	}
+}
+
+@media (max-width: 767px) {
+	.fresh-projects__btn {
+		margin-top: 60px;
+		padding: 28px 51px 29px 52px;
+	}
+
+	.contacts__btn {
+		margin: 25px 0 0 0;
+		padding: 11px 49px 12px 46px;
+		border-radius: 6.221px;
+	}
+}
