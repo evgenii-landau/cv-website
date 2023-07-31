@@ -3,7 +3,6 @@
 }
 
 .header {
-	margin-bottom: 150px;
 	width: 100%;
 	height: 765px;
 	background-image: url(../../resources/welcome/welcome.png);
@@ -11,12 +10,17 @@
 	background-size: cover;
 	background-position: 50%;
 
+	&__content {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-top: 36px;
+	}
+
 	&__logo {
-		position: absolute;
-		top: 27px;
 		font-weight: 700;
-		font-size: 42.414px;
-		letter-spacing: -4.666px;
+		font-size: 42px;
+		letter-spacing: -4.6px;
 		text-transform: uppercase;
 		border-radius: 100px;
 		padding: 0px 15px 1px 9px;
@@ -27,8 +31,7 @@
 	}
 
 	&__body {
-		position: absolute;
-		top: 180px;
+		margin: 110px 0 0 0;
 	}
 
 	&__description {
@@ -44,12 +47,12 @@
 
 .navigation {
 	display: flex;
-	justify-content: space-between;
-	width: 502px;
-	padding: 40px 0 0 633px;
+
+	&__element:not(:last-child) {
+		margin-right: 50px;
+	}
 
 	&__link {
-		margin-right: 50px;
 		font-size: 18px;
 		letter-spacing: -0.54px;
 		text-decoration: none;
@@ -58,10 +61,6 @@
 
 		color: #fff;
 		background-color: black;
-	}
-
-	&__link:last-child {
-		margin-right: 0px;
 	}
 
 	&__link:hover {
@@ -76,10 +75,6 @@
 }
 
 @media (max-width: 767px) {
-	.header {
-		margin-bottom: 100px;
-	}
-
 	.header__description {
 		width: 100%;
 		max-width: 390px;

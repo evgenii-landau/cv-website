@@ -1,22 +1,17 @@
 .footer {
 	width: 100%;
-	padding: 76px 0 24px;
+	padding: 76px 0 32px;
 	border-radius: 30px;
 	background-color: #fff;
 
-	&__body {
+	&__list-wrapper,
+	&__description-wrapper {
 		display: flex;
 		justify-content: space-between;
-		margin: 0 0 32px 0;
 	}
 
-	&__column-left,
-	&__column-right {
-		width: calc(50% - 183px);
-	}
-
-	&__left-description,
-	&__right-derscription,
+	&__description-about-me,
+	&__derscription,
 	&__link {
 		height: 46px;
 		display: flex;
@@ -27,9 +22,6 @@
 		color: #000;
 	}
 
-	&__left-description {
-	}
-
 	&__description {
 		&_mod {
 			@include adaptiv-font(20, 13);
@@ -38,15 +30,32 @@
 		}
 	}
 
-	&__column-right {
+	&__element:not(:last-child) {
+		margin-right: 24px;
 	}
 
 	&__list {
-		width: 100%;
-		display: inline-flex;
-		justify-content: space-between;
+		display: flex;
 	}
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 800px) {
+	.footer__list-wrapper,
+	.footer__description-wrapper {
+		flex-direction: column;
+	}
+
+	.footer__description-about-me,
+	.footer__link {
+		height: auto;
+		margin-bottom: 20px;
+	}
+
+	.footer__list-wrapper {
+		margin-bottom: 40px;
+	}
+
+	.footer__description:not(:last-child) {
+		margin-bottom: 12px;
+	}
 }

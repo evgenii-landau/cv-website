@@ -1,4 +1,6 @@
 .skills {
+	padding-bottom: 150px;
+
 	&__item {
 		margin-bottom: 40px;
 	}
@@ -32,6 +34,10 @@
 }
 
 @media (max-width: 960px) {
+	.skills {
+		padding-bottom: 110px;
+	}
+
 	.skills__item {
 		margin-bottom: 32px;
 	}
@@ -51,6 +57,10 @@
 }
 
 @media (max-width: 767px) {
+	.skills {
+		padding-bottom: 100px;
+	}
+
 	.skills__item {
 		margin-bottom: 60px;
 	}

@@ -27,23 +27,25 @@
 	<body>
 		<header class="header">
 			<div class="container">
-				<a class="header__logo" href="/">landau</a>
-				<nav>
-					<ul class="navigation">
-						<li>
-							<a class="navigation__link" href="#portfolio">портфолио</a>
-						</li>
-						<li>
-							<a class="navigation__link" href="#competencies">компетенции</a>
-						</li>
-						<li>
-							<a class="navigation__link" href="#services">услуги</a>
-						</li>
-						<li>
-							<a class="navigation__link" href="#contacts">контакты</a>
-						</li>
-					</ul>
-				</nav>
+				<div class="header__content">
+					<a class="header__logo" href="/">landau</a>
+					<nav>
+						<ul class="navigation">
+							<li class="navigation__element">
+								<a class="navigation__link" href="#portfolio">портфолио</a>
+							</li>
+							<li class="navigation__element">
+								<a class="navigation__link" href="#competencies">компетенции</a>
+							</li>
+							<li class="navigation__element">
+								<a class="navigation__link" href="#services">услуги</a>
+							</li>
+							<li class="navigation__element">
+								<a class="navigation__link" href="#contacts">контакты</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
 				<div class="header__body">
 					<p class="header__description">
 						Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые повышают престиж компании и
@@ -230,10 +232,6 @@
 			</section>
 
 			<section class="contacts">
-				<picture>
-					<source media="(max-width:1199px)" srcset="resources/contacts/1_tablet.png" />
-					<img class="contacts__img" src="resources/contacts/1.png" alt="Developer at the table" />
-				</picture>
 				<div class="contacts__container">
 					<div class="contacts__body">
 						<p class="contacts__description">Для связи со мной заполните простую форму</p>
@@ -250,21 +248,25 @@
 		<footer class="footer" id="contacts">
 			<div class="container">
 				<div class="footer__body">
-					<div class="footer__column-left">
-						<p class="footer__left-description">Портфолио фронтенд-разработчика Евгения Ландау</p>
-						<p class="footer__left-description footer__description_mod">Все права защищены. 2023</p>
-					</div>
-					<div class="footer__column-right">
+					<div class="footer__list-wrapper">
+						<p class="footer__description-about-me">Портфолио фронтенд-разработчика Евгения Ландау</p>
 						<ul class="footer__list">
-							<li>
+							<li class="footer__element">
 								<a class="footer__link" target="_blank" href="//www.instagram.com/ravik.ras/"
 									>instagram</a
 								>
 							</li>
-							<li><a class="footer__link" href="//t.me/jack_landau" target="_blank">telegram</a></li>
-							<li><a class="footer__link" href="mailto:koteniov.zgenya@mail.ru">mail</a></li>
+							<li class="footer__element">
+								<a class="footer__link" href="//t.me/jack_landau" target="_blank">telegram</a>
+							</li>
+							<li class="footer__element">
+								<a class="footer__link" href="mailto:koteniov.zgenya@mail.ru">mail</a>
+							</li>
 						</ul>
-						<p class="footer__right-derscription footer__description_mod">политика обработки данных</p>
+					</div>
+					<div class="footer__description-wrapper">
+						<p class="footer__description footer__description_mod">Все права защищены. 2023</p>
+						<p class="footer__description footer__description_mod">политика обработки данных</p>
 					</div>
 				</div>
 			</div>
