@@ -17,14 +17,20 @@
 }
 
 .contacts__btn {
-	width: 441px;
 	margin: 55px 0 0 0;
 	@include adaptiv-font(22, 15);
-	padding: 19px 19px 22px 20px;
+	padding: 20px 170px;
 	font-family: inherit;
+	cursor: pointer;
 	border-radius: 10px;
 	background: #f8d197;
 	color: #000000;
+	border: none;
+}
+
+.contacts__btn:hover {
+	color: #f8d197;
+	background-color: #000;
 }
 
 @media (max-width: 1199px) {
@@ -34,13 +40,9 @@
 		border-radius: 8.087px;
 	}
 
-	.fresh-projects__btn {
-		margin: 23px 0 0 0;
-	}
-
 	.contacts__btn {
 		margin: 23px 0 0 0;
-		padding: 12px 13px 14px 14px;
+		padding: 12px 110px;
 		border-radius: 6.75px;
 	}
 }
@@ -53,7 +55,7 @@
 
 	.contacts__btn {
 		margin: 25px 0 0 0;
-		padding: 11px 49px 12px 46px;
+		padding: 11px 132px;
 		border-radius: 6.221px;
 	}
 }

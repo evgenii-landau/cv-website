@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-	max-width: 1150px;
+	width: 1150px;
 	margin: 0 auto;
 }
 
@@ -36,6 +36,7 @@ body {
 
 @media (max-width: 1199px) {
 	.container {
+		width: 100%;
 		padding: 0 15px 0 15px;
 	}
 }
