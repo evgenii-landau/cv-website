@@ -17,7 +17,6 @@
 		position: absolute;
 		top: 50px;
 		left: 45px;
-		@include adaptiv-font(20, 13);
 		color: #000000;
 		padding: 10px 20px;
 		border-radius: 100px;
@@ -35,7 +34,6 @@
 		position: absolute;
 		left: 50px;
 		bottom: 50px;
-		@include adaptiv-font(30, 16);
 
 		color: #fff;
 	}

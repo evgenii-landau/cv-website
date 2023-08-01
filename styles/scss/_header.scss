@@ -15,6 +15,7 @@
 		justify-content: space-between;
 		align-items: center;
 		padding-top: 36px;
+		margin: 0 0 110px 0;
 	}
 
 	&__logo {
@@ -32,11 +33,10 @@
 
 	&__description {
 		max-width: 555px;
-		margin: 110px 0 17px 0;
-
-		@include adaptiv-font(25, 15);
-		letter-spacing: -0.75px;
+		margin: 0 0 17px 0;
+		font-size: 25px;
 		line-height: normal;
+		letter-spacing: -0.75px;
 
 		color: #fff;
 	}
@@ -70,8 +70,8 @@
 		display: none;
 	}
 
-	.header__description {
-		margin: 115px 0 20px 0;
+	.header__content {
+		margin: 0 0 115px 0;
 	}
 }
 
@@ -80,7 +80,7 @@
 		height: 716px;
 	}
 
-	.header__description {
-		margin: 237px 0 45px 0;
+	.header__content {
+		margin: 0 0 237px 0;
 	}
 }

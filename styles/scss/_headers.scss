@@ -1,18 +1,19 @@
 h1 {
 	max-width: 740px;
-	@include adaptiv-font(60, 35);
+	font-size: 60px;
+	font-weight: 400;
+	line-height: 70px;
+	letter-spacing: -1.8px;
 
 	color: #f8d197;
 }
 
 h2 {
 	margin-bottom: 40px;
-	@include adaptiv-font(55, 30);
 
 	color: #fff;
 }
 
 h3 {
-	@include adaptiv-font(35, 28);
 	color: #fff;
 }

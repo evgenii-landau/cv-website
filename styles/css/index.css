@@ -15,6 +15,7 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 36px;
+  margin: 0 0 110px 0;
 }
 .header__logo {
   font-weight: 700;
@@ -29,10 +30,10 @@
 }
 .header__description {
   max-width: 555px;
-  margin: 110px 0 17px 0;
-  font-size: clamp(13px, calc(15px + 10 * ((100vw - 375px) / 1025)), 60px);
-  letter-spacing: -0.75px;
+  margin: 0 0 17px 0;
+  font-size: 25px;
   line-height: normal;
+  letter-spacing: -0.75px;
   color: #fff;
 }
 
@@ -59,16 +60,16 @@
   .navigation {
     display: none;
   }
-  .header__description {
-    margin: 115px 0 20px 0;
+  .header__content {
+    margin: 0 0 115px 0;
   }
 }
 @media (max-width: 767px) {
   .header {
     height: 716px;
   }
-  .header__description {
-    margin: 237px 0 45px 0;
+  .header__content {
+    margin: 0 0 237px 0;
   }
 }
 .fresh-projects {
@@ -87,7 +88,6 @@
   position: absolute;
   top: 50px;
   left: 45px;
-  font-size: clamp(13px, calc(13px + 7 * ((100vw - 375px) / 1025)), 60px);
   color: #000000;
   padding: 10px 20px;
   border-radius: 100px;
@@ -103,7 +103,6 @@
   position: absolute;
   left: 50px;
   bottom: 50px;
-  font-size: clamp(13px, calc(16px + 14 * ((100vw - 375px) / 1025)), 60px);
   color: #fff;
 }
 
@@ -333,7 +332,6 @@
 .contacts__description {
   max-width: 505px;
   margin: 0 0 60px 0;
-  font-size: clamp(13px, calc(35px + 25 * ((100vw - 375px) / 1025)), 60px);
   color: #fff;
 }
 
@@ -385,12 +383,10 @@
   height: 46px;
   display: flex;
   margin-bottom: 66px;
-  font-size: clamp(13px, calc(15px + 7 * ((100vw - 375px) / 1025)), 60px);
   text-decoration: none;
   color: #000;
 }
 .footer__description_mod {
-  font-size: clamp(13px, calc(13px + 7 * ((100vw - 375px) / 1025)), 60px);
   margin-bottom: 0;
   opacity: 0.5;
 }
@@ -420,18 +416,19 @@
 }
 h1 {
   max-width: 740px;
-  font-size: clamp(13px, calc(35px + 25 * ((100vw - 375px) / 1025)), 60px);
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: -1.8px;
   color: #f8d197;
 }
 
 h2 {
   margin-bottom: 40px;
-  font-size: clamp(13px, calc(30px + 25 * ((100vw - 375px) / 1025)), 60px);
   color: #fff;
 }
 
 h3 {
-  font-size: clamp(13px, calc(28px + 7 * ((100vw - 375px) / 1025)), 60px);
   color: #fff;
 }
 
@@ -551,7 +548,6 @@ h3 {
   margin-top: 80px;
   padding: 56px 85px 58px 86px;
   display: inline-block;
-  font-size: clamp(13px, calc(18px + 12 * ((100vw - 375px) / 1025)), 60px);
   border: 1px solid #f8d197;
   border-radius: 10px;
   color: #000;
@@ -566,7 +562,6 @@ h3 {
 
 .contacts__btn {
   margin: 55px 0 0 0;
-  font-size: clamp(13px, calc(15px + 7 * ((100vw - 375px) / 1025)), 60px);
   padding: 20px 170px;
   font-family: inherit;
   cursor: pointer;
@@ -608,7 +603,6 @@ h3 {
   margin: 0 0 25px 0;
   padding: 16px 250px 15px 40px;
   border-radius: 1000px;
-  font-size: clamp(13px, calc(15px + 7 * ((100vw - 375px) / 1025)), 60px);
   border: none;
   background: #3b3d3b;
   color: #ffffff;
@@ -641,7 +635,6 @@ body {
 }
 
 .text {
-  font-size: clamp(13px, calc(18px + 4 * ((100vw - 375px) / 1025)), 60px);
   color: #fff;
 }
 
