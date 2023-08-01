@@ -1,5 +1,5 @@
 h1 {
-	width: 740px;
+	max-width: 740px;
 	@include adaptiv-font(60, 35);
 
 	color: #f8d197;
@@ -15,11 +15,4 @@ h2 {
 h3 {
 	@include adaptiv-font(35, 28);
 	color: #fff;
-}
-
-@media (max-width: 767px) {
-	h1 {
-		width: 100%;
-		max-width: 455px;
-	}
 }

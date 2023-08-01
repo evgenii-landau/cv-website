@@ -27,12 +27,9 @@
   background-color: black;
   text-decoration: none;
 }
-.header__body {
-  margin: 110px 0 0 0;
-}
 .header__description {
-  width: 555px;
-  margin: 0 0 17px 0;
+  max-width: 555px;
+  margin: 110px 0 17px 0;
   font-size: clamp(13px, calc(15px + 10 * ((100vw - 375px) / 1025)), 60px);
   letter-spacing: -0.75px;
   line-height: normal;
@@ -42,7 +39,7 @@
 .navigation {
   display: flex;
 }
-.navigation__element:not(:last-child) {
+.navigation__item:not(:last-child) {
   margin-right: 50px;
 }
 .navigation__link {
@@ -62,11 +59,16 @@
   .navigation {
     display: none;
   }
+  .header__description {
+    margin: 115px 0 20px 0;
+  }
 }
 @media (max-width: 767px) {
+  .header {
+    height: 716px;
+  }
   .header__description {
-    width: 100%;
-    max-width: 390px;
+    margin: 237px 0 45px 0;
   }
 }
 .fresh-projects {
@@ -379,6 +381,7 @@
   justify-content: space-between;
 }
 .footer__description-about-me, .footer__derscription, .footer__link {
+  max-width: 512px;
   height: 46px;
   display: flex;
   margin-bottom: 66px;
@@ -416,7 +419,7 @@
   }
 }
 h1 {
-  width: 740px;
+  max-width: 740px;
   font-size: clamp(13px, calc(35px + 25 * ((100vw - 375px) / 1025)), 60px);
   color: #f8d197;
 }
@@ -432,12 +435,6 @@ h3 {
   color: #fff;
 }
 
-@media (max-width: 767px) {
-  h1 {
-    width: 100%;
-    max-width: 455px;
-  }
-}
 .burger {
   position: fixed;
   top: 0;
@@ -655,7 +652,7 @@ body {
 @media (max-width: 1199px) {
   .container {
     width: 100%;
-    padding: 0 15px 0 15px;
+    padding: 0 15px;
   }
 }
 @media (max-width: 767px) {
