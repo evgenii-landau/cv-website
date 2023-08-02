@@ -20,6 +20,10 @@
 		color: #000000;
 		padding: 10px 20px;
 		border-radius: 100px;
+
+		font-size: 20px;
+		line-height: normal;
+		letter-spacing: -0.6px;
 		background: #f8d197;
 	}
 
@@ -35,6 +39,9 @@
 		left: 50px;
 		bottom: 50px;
 
+		font-size: 30px;
+		line-height: normal;
+		letter-spacing: -0.9px;
 		color: #fff;
 	}
 }
@@ -48,6 +55,8 @@
 		top: 40px;
 		left: 35px;
 		padding: 8px 16px;
+		font-size: 16px;
+		letter-spacing: -0.48px;
 	}
 
 	.fresh-projects__subtitle {
@@ -58,6 +67,8 @@
 	.fresh-projects__description {
 		left: 40px;
 		bottom: 40px;
+		font-size: 24px;
+		letter-spacing: -0.72px;
 	}
 }
 
@@ -83,6 +94,8 @@
 		top: 36px;
 		left: 53px;
 		padding: 7px 13px;
+		font-size: 13px;
+		letter-spacing: -0.39px;
 	}
 
 	.fresh-projects__subtitle {
@@ -92,5 +105,7 @@
 	.fresh-projects__description {
 		left: 35px;
 		bottom: 50px;
+		font-size: 16px;
+		letter-spacing: -0.48px;
 	}
 }

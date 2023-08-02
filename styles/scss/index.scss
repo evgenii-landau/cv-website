@@ -25,6 +25,9 @@ body {
 }
 
 .text {
+	font-size: 22px;
+	line-height: normal;
+	letter-spacing: -0.66px;
 	color: #fff;
 }
 
@@ -36,6 +39,11 @@ body {
 	.container {
 		width: 100%;
 		padding: 0 15px;
+	}
+
+	.text {
+		font-size: 18px;
+		letter-spacing: -0.54px;
 	}
 }
 

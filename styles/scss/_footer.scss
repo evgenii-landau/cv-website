@@ -13,17 +13,23 @@
 	&__description-about-me,
 	&__derscription,
 	&__link {
-		max-width: 512px;
-		height: 46px;
 		display: flex;
 		margin-bottom: 66px;
 		text-decoration: none;
 
+		font-size: 22px;
+		line-height: normal;
+		letter-spacing: -0.66px;
 		color: #000;
+	}
+
+	&__link:hover {
+		color: #f8d197;
 	}
 
 	&__description {
 		&_mod {
+			font-size: 20px;
 			margin-bottom: 0;
 			opacity: 0.5;
 		}
@@ -38,16 +44,57 @@
 	}
 }
 
+@media (max-width: 1199px) {
+	.footer {
+		padding: 57px 0 28px;
+	}
+
+	.footer__description-about-me,
+	.footer__description,
+	.footer__link {
+		font-size: 16px;
+		letter-spacing: -0.48px;
+	}
+
+	.footer__description-about-me,
+	.footer__link {
+		margin-bottom: 37px;
+	}
+
+	.footer__description_mod {
+		font-size: 14px;
+		letter-spacing: -0.42px;
+	}
+}
+
 @media (max-width: 800px) {
+	.footer {
+		padding: 47px 0 34px;
+	}
+
 	.footer__list-wrapper,
 	.footer__description-wrapper {
 		flex-direction: column;
 	}
 
 	.footer__description-about-me,
+	.footer__description,
 	.footer__link {
-		height: auto;
+		font-size: 15px;
+		letter-spacing: -0.45px;
+	}
+
+	.footer__description_mod {
+		font-size: 13px;
+		letter-spacing: -0.39px;
+	}
+
+	.footer__description-about-me {
 		margin-bottom: 20px;
+	}
+
+	.footer__link {
+		margin: 0;
 	}
 
 	.footer__list-wrapper {

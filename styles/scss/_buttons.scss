@@ -3,6 +3,9 @@
 	padding: 56px 85px 58px 86px;
 	display: inline-block;
 
+	font-size: 30px;
+	line-height: normal;
+	letter-spacing: -0.9px;
 	border: 1px solid #f8d197;
 	border-radius: 10px;
 	color: #000;
@@ -11,8 +14,8 @@
 }
 
 .fresh-projects__btn:hover {
-	color: #f8d197;
-	background-color: #000;
+	color: #fff;
+	background-color: #e59113;
 }
 
 .contacts__btn {
@@ -24,11 +27,15 @@
 	background: #f8d197;
 	color: #000000;
 	border: none;
+
+	font-size: 22px;
+	line-height: normal;
+	letter-spacing: -0.66px;
 }
 
 .contacts__btn:hover {
-	color: #f8d197;
-	background-color: #000;
+	color: #fff;
+	background-color: #e59113;
 }
 
 @media (max-width: 1199px) {
@@ -36,24 +43,40 @@
 		margin-top: 65px;
 		padding: 45px 67px 47px 68px;
 		border-radius: 8.087px;
+		font-size: 24px;
+		letter-spacing: -0.7px;
 	}
 
 	.contacts__btn {
 		margin: 23px 0 0 0;
 		padding: 12px 110px;
 		border-radius: 6.75px;
+		font-size: 16px;
+		letter-spacing: -0.48px;
 	}
 }
 
 @media (max-width: 767px) {
 	.fresh-projects__btn {
+		display: flex;
+		justify-content: center;
 		margin-top: 60px;
 		padding: 28px 51px 29px 52px;
+		font-size: 18px;
+		letter-spacing: -0.54px;
 	}
 
 	.contacts__btn {
 		margin: 25px 0 0 0;
 		padding: 11px 132px;
-		border-radius: 6.221px;
+		border-radius: 6px;
+		font-size: 15px;
+		letter-spacing: -0.45px;
+	}
+}
+
+@media (max-width: 419px) {
+	.contacts__btn {
+		width: 100%;
 	}
 }

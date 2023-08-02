@@ -66,12 +66,12 @@
 }
 
 @media (max-width: 1199px) {
-	.navigation {
-		display: none;
-	}
-
 	.header__content {
 		margin: 0 0 115px 0;
+	}
+
+	.navigation {
+		display: none;
 	}
 }
 
@@ -82,5 +82,11 @@
 
 	.header__content {
 		margin: 0 0 237px 0;
+	}
+
+	.header__description {
+		max-width: 320px;
+		font-size: 15px;
+		letter-spacing: -0.45px;
 	}
 }

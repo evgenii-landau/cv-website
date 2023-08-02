@@ -1,22 +1,50 @@
 .input {
+	width: 355px;
 	margin: 0 0 25px 0;
-	padding: 16px 250px 15px 40px;
+	padding: 20px 250px 15px 40px;
 	border-radius: 1000px;
 	border: none;
 	background: #3b3d3b;
+
+	font-size: 22px;
+	line-height: normal;
+	letter-spacing: -0.66px;
 	color: #ffffff;
+}
+
+.input::placeholder {
+	font-size: 22px;
+	line-height: normal;
+	letter-spacing: -0.66px;
+	color: #ffffff;
+}
+
+.input:focus::placeholder {
+	opacity: 0.5;
 }
 
 @media (max-width: 1199px) {
 	.input {
 		margin: 0 0 17px 0;
-		padding: 10px 250px 10px 24px;
+		padding: 12px 135px 12px 24px;
+		border-radius: 675px;
+	}
+
+	.input::placeholder {
+		font-size: 16px;
+		letter-spacing: -0.48px;
 	}
 }
 
 @media (max-width: 767px) {
 	.input {
 		margin: 0 0 15px 0;
-		padding: 9px 187px 9px 18px;
+		padding: 9px 10% 9px 18px;
+		border-radius: 622px;
+	}
+
+	.input::placeholder {
+		font-size: 15px;
+		letter-spacing: -0.45px;
 	}
 }

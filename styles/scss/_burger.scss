@@ -12,9 +12,11 @@
 
 	&__content {
 		padding: 73px 167px 191px 28px;
-		width: 125px;
+		width: 300px;
 		height: 100%;
 		background-color: black;
+		transition: transform, 0.4s linear;
+		transform: translateY(100%);
 	}
 
 	&__logo {
@@ -60,24 +62,31 @@
 		opacity: 0.5;
 	}
 
-	&__telegram,
-	&__mail,
-	&__instagram {
+	&__link {
 		font-size: 20px;
 		line-height: 60px;
 		letter-spacing: -0.6px;
 		text-decoration: none;
 		color: #ffffff;
 	}
+
+	&__link:hover {
+		color: #f8d197;
+	}
 }
 
 .burger__btn {
+	cursor: pointer;
 	display: none;
 }
 
 .burger_open {
 	opacity: 1;
 	visibility: visible;
+}
+
+.burger_open .burger__content {
+	transform: translateY(0);
 }
 
 @media (max-width: 1199px) {
